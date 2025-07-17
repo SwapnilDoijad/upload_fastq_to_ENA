@@ -1,4 +1,4 @@
-# 📤 Upload FastQ or Fast5 Files to ENA
+# 📤 Upload FastQ or Fast5 files to ENA
 
 A lightweight command-line tool for submitting FastQ or Fast5 files to the [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/). This script helps automate the process of creating submission manifests and uploading data using ENA's Webin service.
 
