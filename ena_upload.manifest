@@ -1,0 +1,9 @@
+STUDY	PRJEB12345
+
+SAMPLE	SAMEA_FAKE_1
+NAME	run_S1
+PLATFORM	ILLUMINA
+INSTRUMENT_MODEL	Illumina NovaSeq 6000
+FASTQ	S1_3-days_crop_R1.fastq.gz
+FASTQ	S1_3-days_crop_R2.fastq.gz
+

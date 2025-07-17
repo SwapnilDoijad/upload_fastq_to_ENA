@@ -1,0 +1,15 @@
+STUDY    PRJEB12345
+
+SAMPLE   SAMEA1234567
+NAME     sample1_run
+PLATFORM ILLUMINA
+INSTRUMENT_MODEL Illumina NovaSeq 6000
+FASTQ    sample1_1.fastq.gz
+FASTQ    sample1_2.fastq.gz
+
+SAMPLE   SAMEA1234568
+NAME     sample2_run
+PLATFORM ILLUMINA
+INSTRUMENT_MODEL Illumina NovaSeq 6000
+FASTQ    sample2_1.fastq.gz
+FASTQ    sample2_2.fastq.gz
