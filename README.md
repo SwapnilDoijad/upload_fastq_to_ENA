@@ -4,45 +4,45 @@ A lightweight command-line tool for submitting FastQ or Fast5 files to the [Euro
 
 ---
 
-## 🔐 Prerequisites
+## 1. Prerequisites
 
 Before using this tool, make sure you have:
 
-- ✅ A **Webin ID** (e.g., `Webin-XXXXX`)
-- ✅ A **Webin password**
-- ✅ A registered **ENA Study ID** (e.g., `PRJEB12345`)
-- ✅ One or more registered **ENA Sample IDs**
+- A **Webin ID** (e.g., `Webin-XXXXX`)
+- A **Webin password**
+- A registered **ENA Study ID** (e.g., `PRJEB12345`)
+- One or more registered **ENA Sample IDs**
 
-> 👉 Not registered yet? [How to Register a Study and Samples](#how-to-register-a-study-and-samples)
+> Not registered yet? [How to Register a Study and Samples](#how-to-register-a-study-and-samples)
 
 ---
 
-## ⚙️ Installation & Usage
+## 2. Installation & Usage
 
-### 1. Clone the repository
+### 2.1. Clone the repository
 
     git clone https://github.com/SwapnilDoijad/upload_fastq_to_ENA.git
     cd upload_fastq_to_ENA
 
-### 2. Create the manifest file
+### 2.2. Create the manifest file
     python3 scripts/create_manifest.py \
         -f my_data \
         -s project_id \
         -i "Illumina NovaSeq 6000"
 
-### 3. Upload files to ENA
+### 2.3. Upload files to ENA
     python3 scripts/ena_upload.py \
         -f my_data \
         -u Webin-12345 \
         -p my_password
 
 ---
-## 📝 How to Register a Study and Samples
-  1. Log in to the ENA Webin Portal
+## 3. How to Register a Study and Samples
+  3.1. Log in to the ENA Webin Portal
     - Visit: https://www.ebi.ac.uk/ena/submit/webin/
     - Use your Webin credentials to log in.
 
-  2. Register a Study
+  3.2. Register a Study
     - Click "Register Study"
     - Fill out the form with:
       - Release date
@@ -50,7 +50,7 @@ Before using this tool, make sure you have:
       - Abstract
       - Submit and note the Study Accession, e.g.:
 
-  3. Register Samples
+  3.3 Register Samples
        - Click "Register Sample"
        - Download the sample spreadsheet template.
        - Fill in required metadata for each sample.
