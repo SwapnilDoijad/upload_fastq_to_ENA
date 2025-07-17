@@ -48,13 +48,13 @@ Before using this tool, make sure you have:
       - Release date
       - Study name and title
       - Abstract
-      - Submit and note the Study Accession, e.g.:
+      - Submit and note the Study Accession
 
   3.3 Register Samples
-       - Click "Register Sample"
-       - Download the sample spreadsheet template.
-       - Fill in required metadata for each sample.
-       - Upload via the portal to get Sample IDs (e.g., ERS1234567).
+     - Click "Register Sample"
+     - Download the sample spreadsheet template.
+     - Fill in required metadata for each sample.
+    - Upload via the portal to get Sample IDs (e.g., ERS1234567).
 
 ---
 🧑‍💻 Author
